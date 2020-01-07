@@ -15,10 +15,13 @@
 
 ### 步骤
 * build
+
   拉取代码，执行编译并打包成可部署的资产(jar,docker image等)
 * deploy
+
   发布测试环境，包括被测应用，数据库以及周边需要mock的环境
 * init
+
   执行必要的初始化job(导入必要数据，添加系统管理员用户等等)，使系统处于可以测试状态
 
 ##  周边系统的mock
@@ -44,6 +47,7 @@
 * Runner：[jest](https://jestjs.io/)
 * 整合框架：[jest-puppeteer](https://github.com/smooth-code/jest-puppeteer)
 * 报告：[jest-html-reporter](https://github.com/Hargne/jest-html-reporter)
+
 如果希望sample的话，联系wuhd@cn.ibm.com
 
 ##  web应用的兼容性测试
