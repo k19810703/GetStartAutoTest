@@ -61,7 +61,12 @@
 推荐使用[macaca](https://github.com/alibaba/macaca)
 
 ### 推荐
-暂无，欢迎有需要的项目联系我来一起做一个试试
+* 测试框架：[macaca](https://github.com/alibaba/macaca)
+* Runner：[mocha](https://mochajs.org)
+* 报告：[Macaca Report](https://macacajs.github.io/macaca-reporter/)
+* Inspector: [App Inspector](https://macacajs.github.io/app-inspector/)
+
+如果希望sample的话，联系wuhd@cn.ibm.com
 
 ##  性能测试
 
