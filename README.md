@@ -55,6 +55,12 @@
 ### 方案概要
 推荐使用[selenium](https://selenium.dev/)来做兼容性测试，兼容性测试建议使用2次开发好的框架来做
 
+### 推荐
+* 测试框架：[selenium](https://selenium.dev/)
+* Runner：[jest](https://jestjs.io/)
+* 报告：[jest-html-reporter](https://github.com/Hargne/jest-html-reporter)
+
+
 ##  手机应用功能测试
 
 ### 方案概要
