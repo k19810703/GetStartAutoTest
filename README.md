@@ -49,6 +49,7 @@
 * 整合框架：[jest-puppeteer](https://github.com/smooth-code/jest-puppeteer)
 * 报告：[jest-html-reporter](https://github.com/Hargne/jest-html-reporter)
 
+[Get Started](webfunction.md)
 如果希望sample的话，联系wuhd@cn.ibm.com
 
 ##  web应用的兼容性测试
