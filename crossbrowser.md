@@ -45,7 +45,7 @@ rm master.zip
 ```javascript
 jest.setTimeout(600000);
 
-describe('豆瓣网', () => {
+describe(`${process.env.browser||'firefox'} 豆瓣网`, () => {
   describe('权利的游戏 第8季', () => {
     beforeAll(async () => {
       await driver.get('https://movie.douban.com/subject/26584183/');
@@ -85,4 +85,4 @@ jest
 browser=safari jest
 ```
 
-测试报告　jest_html_reporters.html
+测试报告　${browser}_reporter.html
