@@ -63,6 +63,8 @@
 * Runner：[jest](https://jestjs.io/)
 * 报告：[jest-html-reporter](https://github.com/Hargne/jest-html-reporter)
 
+[Get Started](crossbrowser.md)
+
 
 ##  手机应用功能测试
 
