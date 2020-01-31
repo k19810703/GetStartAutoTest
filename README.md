@@ -32,39 +32,36 @@
 
 ## API自动化测试
 
-参考我的[APITestGuide](https://github.com/k19810703/APITestGuide),包含了比较详细的guide，细节问题，联系wuhd@cn.ibm.com探讨
+参考[APITestGuide](https://github.com/k19810703/APITestGuide),包含了比较详细的guide，细节问题，联系wuhd@cn.ibm.com探讨
 
 ##  web应用的功能测试
 
 ### 概要
 因为很多情况下会需要一些复杂的逻辑来完成测试和断言，full regression的功能测试不太建议使用0代码的2次开发自动化测试框架。
 
-推荐使用[puppeteer](https://github.com/puppeteer/puppeteer)来做功能测试，这个框架可以在Chromium内核上执行自动化测试，相当稳定，文档也清晰，上手容易。
-
-[cypress](https://github.com/cypress-io/cypress)也可以做一个选择。
+推荐使用[puppeteer](https://github.com/puppeteer/puppeteer)来做功能测试，这个框架可以在Chromium内核上执行自动化测试，相当稳定而且功能丰富，文档也清晰，上手容易。
 
 ### 推荐
 * 测试框架：[puppeteer](https://github.com/puppeteer/puppeteer)
 * Runner：[jest](https://jestjs.io/)
 * 整合框架：[jest-puppeteer](https://github.com/smooth-code/jest-puppeteer)
-* 报告：[jest-html-reporter](https://github.com/Hargne/jest-html-reporter)
+* 报告：[jest-html-reporters](https://github.com/Hazyzh/jest-html-reporters)
 
 [Get Started](webfunction.md)
 
-如果希望sample的话，联系wuhd@cn.ibm.com
+如果希望更详细sample或者poc的话，联系wuhd@cn.ibm.com
 
 ##  web应用的兼容性测试
 
 ### 方案概要
-推荐使用[selenium](https://selenium.dev/)来做兼容性测试，兼容性测试建议使用2次开发好的框架来做
+推荐使用[selenium](https://selenium.dev/)来做兼容性测试
 
 ### 推荐
 * 测试框架：[selenium](https://selenium.dev/)
 * Runner：[jest](https://jestjs.io/)
-* 报告：[jest-html-reporter](https://github.com/Hargne/jest-html-reporter)
+* 报告：[jest-html-reporters](https://github.com/Hazyzh/jest-html-reporters)
 
 [Get Started](crossbrowser.md)
-
 
 ##  手机应用功能测试
 

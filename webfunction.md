@@ -55,6 +55,8 @@ EOF
 
 ##  创建测试用例
 
+测试用例sample参考 测试用例sample.xlsx
+
 创建文件case1.test.js
 ```javascript
 jest.setTimeout(600000);
