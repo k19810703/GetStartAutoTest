@@ -99,4 +99,5 @@ headless执行
 headless=true jest
 ```
 
-测试报告　jest_html_reporters.html
+测试报告 => jest_html_reporters.html
+![测试报告](sample_report.png)　

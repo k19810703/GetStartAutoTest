@@ -86,3 +86,6 @@ browser=safari jest
 ```
 
 测试报告　${browser}_reporter.html
+
+报告sample参考[功能测试报告](webfunction.md)
+
